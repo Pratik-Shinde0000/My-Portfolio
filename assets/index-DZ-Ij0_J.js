@@ -1,0 +1,1 @@
+import{r}from"./index-DJzQqVO0.js";const c=(e,s=100)=>{const[i,n]=r.useState([]);return r.useEffect(()=>{const o=[];for(let t=0;t<e;t++)o.push(setTimeout(()=>{n(u=>[...u,t])},t*s));return()=>o.forEach(t=>clearTimeout(t))},[e,s]),i};export{c as u};
