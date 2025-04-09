@@ -1,0 +1,6 @@
+# Allow all web crawlers to access the website
+User-agent: *
+Allow: /
+
+# Specify the location of the sitemap to help crawlers index the website efficiently
+Sitemap: https://pratikshinde.my.id/sitemap.xml
